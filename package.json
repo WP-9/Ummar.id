@@ -1,0 +1,32 @@
+{
+  "name": "Ummar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.2"
+  },
+  "devDependencies": {
+    "sass": "^1.55.0",
+    "vite": "^3.1.4"
+  },
+  "scripts": {
+    "start": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WP-9/Ummar.id.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WP-9/Ummar.id/issues"
+  },
+  "homepage": "https://github.com/WP-9/Ummar.id#readme"
+}
