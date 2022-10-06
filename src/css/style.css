@@ -444,3 +444,10 @@
 .footer .copyright a:hover {
   color: #ffffff;
 }
+
+
+@media screen and (max-width: 600px) {
+  .hidetxt {
+    visibility: hidden;
+  }
+}
