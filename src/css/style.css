@@ -12,6 +12,14 @@
   right: 30px;
   bottom: 30px;
   z-index: 99;
+  background-color: #128c7e;
+  color: white;
+  border: 3px solid transparent;
+}
+
+.btn-wa:hover {
+  background-color: #25d366;
+  color: white;
 }
 
 /*** Spinner ***/
@@ -448,7 +456,6 @@
 .footer .copyright a:hover {
   color: #ffffff;
 }
-
 
 @media screen and (max-width: 600px) {
   .hidetxt {
