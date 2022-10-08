@@ -40,6 +40,12 @@
   }
 }
 
+/* Input Form */
+.form-control {
+  box-shadow: 0 3px 5px 2px rgba(0, 0, 0, 0.1);
+  border: 1px solid whitesmoke;
+}
+
 /*** Spinner ***/
 #spinner {
   opacity: 0;
