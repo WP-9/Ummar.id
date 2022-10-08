@@ -59,8 +59,25 @@
 
 // Fungsi Tombol Kirim Kontak
 const sendBtn = document.querySelector(".sendBtn");
+const alert = document.querySelector(".alert-contact");
+const btnClose = document.querySelector(".btn-close");
 
+// Tombol Close Alert
+btnClose.addEventListener("click", () => {
+  alert.style.left = "150vw";
+});
+
+// Tombol Kirim
 sendBtn.addEventListener("click", e => {
   e.preventDefault();
-  alert("Kirim Email Belum Tersedia");
+
+  // alert.style.display = "block";
+  // alert.style.transition = "0.5s";
+  alert.style.left = "50%";
+
+  setTimeout(() => {
+    // alert.style.display = "none";
+    // alert.style.transition = "0s";
+    alert.style.left = "150vw";
+  }, 7000);
 });

@@ -6,6 +6,7 @@
   --dark: #010a35;
 }
 
+/* Button WA */
 .btn-wa {
   position: fixed;
   display: none;
@@ -20,6 +21,23 @@
 .btn-wa:hover {
   background-color: #25d366;
   color: white;
+}
+
+/* Alert Contact */
+.alert-contact {
+  position: fixed;
+  top: 20%;
+  left: 150vw;
+  transform: translateX(-50%);
+  width: 60vw;
+  display: block;
+  transition: 0.5s;
+}
+
+@media (max-width: 555px) {
+  .alert-contact {
+    width: 90vw;
+  }
 }
 
 /*** Spinner ***/
