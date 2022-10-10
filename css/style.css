@@ -121,6 +121,10 @@
   max-width: 80px;
 }
 
+.navbar-nav {
+  border-radius: 25px;
+}
+
 .navbar-nav .nav-link {
   margin-left: 25px;
   padding: 10px 0;
