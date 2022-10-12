@@ -277,7 +277,15 @@
         <div class="row g-4 justify-content-center">
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="service-item">
-              <img class="img-fluid" style="border-top-left-radius: 10px; border-top-right-radius: 10px;" src="img/ummar/BG-Elektronik.jpg" alt="" />
+              <img
+                class="img-fluid"
+                style="
+                  border-top-left-radius: 10px;
+                  border-top-right-radius: 10px;
+                "
+                src="img/ummar/BG-Elektronik.jpg"
+                alt=""
+              />
               <div class="d-flex align-items-center bg-light">
                 <div class="service-icon flex-shrink-0 bg-primary">
                   <img class="img-fluid" src="img/icon/Smartphone.png" alt="" />
@@ -288,7 +296,15 @@
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div class="service-item">
-              <img class="img-fluid" style="border-top-left-radius: 10px; border-top-right-radius: 10px;" src="img/ummar/BG-Livinghome.jpg" alt="" />
+              <img
+                class="img-fluid"
+                style="
+                  border-top-left-radius: 10px;
+                  border-top-right-radius: 10px;
+                "
+                src="img/ummar/BG-Livinghome.jpg"
+                alt=""
+              />
               <div class="d-flex align-items-center bg-light">
                 <div class="service-icon flex-shrink-0 bg-primary">
                   <img class="img-fluid" src="img/icon/Home.png" alt="" />
@@ -299,7 +315,15 @@
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
             <div class="service-item">
-              <img class="img-fluid" style="border-top-left-radius: 10px; border-top-right-radius: 10px;" src="img/ummar/BG-Motorbike.jpg" alt="" />
+              <img
+                class="img-fluid"
+                style="
+                  border-top-left-radius: 10px;
+                  border-top-right-radius: 10px;
+                "
+                src="img/ummar/BG-Motorbike.jpg"
+                alt=""
+              />
               <div class="d-flex align-items-center bg-light">
                 <div class="service-icon flex-shrink-0 bg-primary">
                   <img class="img-fluid" src="img/icon/motorbike.png" alt="" />
@@ -344,7 +368,8 @@
               data-parallax="scroll"
               data-image-src="img/ummar/BG-Home-Header.jpg"
             >
-              <form method="post" action="#">
+              <!-- Form -->
+              <form action="https://formspree.io/f/xknezqrq" method="POST">
                 <div
                   class="h-100 px-4 px-sm-5 pe-lg-0 wow fadeIn"
                   data-wow-delay="0.5s"
@@ -358,6 +383,7 @@
                             class="form-control"
                             id="gname"
                             placeholder="Gurdian Name"
+                            name="name"
                             required
                           />
                           <label for="gname">Nama</label>
@@ -370,12 +396,13 @@
                             class="form-control"
                             id="gmail"
                             placeholder="Gurdian Email"
+                            name="email"
                             required
                           />
                           <label for="gmail">Email</label>
                         </div>
                       </div>
-                    
+
                       <div class="col-12">
                         <div class="form-floating">
                           <textarea
@@ -383,6 +410,7 @@
                             placeholder="Leave a message here"
                             id="message"
                             style="height: 80px"
+                            name="message"
                             required
                           ></textarea>
                           <label for="message">Pertanyaan</label>
