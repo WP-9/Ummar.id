@@ -1,9 +1,11 @@
 /********** Template CSS **********/
+
 :root {
-  --primary: #eab308;
-  --secondary: #001064;
+  --primary: #F9D310;
+  --secondary: #AB8C25;
+  --warning: #F9E375;
   --light: #f6f7f8;
-  --dark: #010a35;
+  --dark: #2E2715;
 }
 
 /* Button WA */
@@ -16,6 +18,10 @@
   background-color: #128c7e;
   color: white;
   border: 3px solid transparent;
+}
+
+.darktr {
+  background-color: var(--darktr);
 }
 
 .btn-wa:hover {
@@ -75,7 +81,7 @@
 .btn.btn-outline-primary:hover,
 .btn.btn-secondary,
 .btn.btn-outline-secondary:hover {
-  color: #ffffff;
+  color: #000000;
 }
 
 .btn.btn-primary {
@@ -83,13 +89,21 @@
 }
 
 .btn.btn-primary:hover {
-  background: var(--secondary);
-  border-color: var(--secondary);
+  background: var(--warning);
+  border-color: var(--warning);
+  color: var(--secondary);
+  border: none;
+}
+
+.btn-secondary {
+  border: 3px solid var(--primary);
+  background-color: var(--warning);
 }
 
 .btn.btn-secondary:hover {
   background: var(--primary);
-  border-color: var(--primary);
+  border: 3px solid var(--primary);
+  color: var(--secondary);
 }
 
 .btn-square {
@@ -141,7 +155,10 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-  color: var(--primary);
+  color: var(--secondary);
+  border-bottom: 3px solid var(--secondary);
+  border-radius: 30px;
+  border-top: 3px solid var(--secondary);
 }
 
 .social-media:hover {
@@ -202,7 +219,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: rgba(1, 10, 53, 0.8);
+  background: rgba(2, 0, 0, 0.8);
   z-index: 1;
 }
 
@@ -235,7 +252,7 @@
 }
 
 .page-header {
-  background: linear-gradient(rgba(1, 10, 53, 0.8), rgba(1, 10, 53, 0.8)),
+  background: linear-gradient(rgba(249, 227, 117, 0.8), var(--dark)),
     url(../img/ummar/abstract-boho-doodle-element-vector_580241-160.jpg) center
       center no-repeat;
   background-size: cover;
@@ -248,7 +265,7 @@
 
 .page-header .breadcrumb-item a:hover,
 .page-header .breadcrumb-item.active {
-  color: var(--primary);
+  color: var(--secondary);
 }
 
 /*** Facts ***/
@@ -292,11 +309,11 @@
 }
 
 .container.quote .quote-text {
-  background: rgba(1, 10, 53, 0.8);
+  background: rgb(249, 227, 117, 0.8);
 }
 
 .container.quote .quote-form {
-  background: rgba(255, 255, 255, 0.8);
+  background: rgb(249, 227, 117, 0.8);
 }
 
 .container.quote .quote-text .h-100,
